@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Mail, Lock } from 'lucide-react';
 
 export default function LoginPage() {
@@ -73,16 +72,6 @@ export default function LoginPage() {
           Entrar
         </button>
       </form>
-
-      {/* Links de apoio */}
-      <div className="text-center text-sm">
-        <Link
-          to="/recover-password"
-          className="font-medium text-[#702331] hover:underline"
-        >
-          Esqueceu sua senha?
-        </Link>
-      </div>
     </div>
   );
 }
