@@ -1,3 +1,4 @@
+// pathospotter-frontend/src/pages/DashboardPage.tsx
 import { useState } from 'react';
 import EmptyState from '../components/EmptyState';
 // import ProcessingState from '../components/dashboard/ProcessingState';
