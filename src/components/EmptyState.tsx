@@ -14,7 +14,6 @@ export default function EmptyState({}: EmptyStateProps) {
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
-      // Aqui você chamará a prop:
       // onFileSelect(e.target.files[0]);
       console.log('Arquivo selecionado:', e.target.files[0].name);
     }
